@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" W ",
+		"NBG",
+		" V "
+	],
+	"key": {
+		"W": {
+			"item": "minecraft:water_bucket"
+		},
+		"N": {
+			"item": "minecraft:nether_wart"
+		},
+		"V": {
+			"item": "minecraft:glass_bottle"
+		},
+		"G": {
+			"item": "minecraft:gold_nugget"
+		},
+		"B": {
+			"item": "minecraft:blaze_rod"
+		}
+	},
+	"result": {
+		"item": "thecreech:beast_breaker_poison"
+	}
+}
