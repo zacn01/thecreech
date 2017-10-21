@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"CIC",
+		"CIC",
+		" S "
+	],
+	"key": {
+		"C": {
+			"item": "thecreech:beast_claw"
+		},
+		"I": {
+			"item": "minecraft:iron_ingot"
+		},
+		"S": {
+			"item": "minecraft:stick"
+		}
+	},
+	"result": {
+		"item": "thecreech:beast_breaker_sword"
+	}
+}

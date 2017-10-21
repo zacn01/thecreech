@@ -10,6 +10,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.common.util.EnumHelper;
 
 @Mod(modid = TheCreech.modId, name = TheCreech.name, version = TheCreech.version)
 public class TheCreech {
@@ -17,6 +18,9 @@ public class TheCreech {
 	public static final String modId = "thecreech";
 	public static final String name = "The Chreech";
 	public static final String version = "0.1";
+	
+	// Materials
+	public static final Item.ToolMaterial beastClawToolMaterial = EnumHelper.addToolMaterial("BEASTCLAW", 2, 650, 6, 4, 10);
 	
 	@Mod.Instance(modId)
 	public static TheCreech instance;
