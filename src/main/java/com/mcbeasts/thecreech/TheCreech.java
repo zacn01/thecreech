@@ -3,7 +3,9 @@ package com.mcbeasts.thecreech;
 import com.mcbeasts.item.ModItems;
 import com.mcbeasts.proxy.CommonProxy;
 
+import net.minecraft.init.SoundEvents;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemArmor;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -21,6 +23,7 @@ public class TheCreech {
 	
 	// Materials
 	public static final Item.ToolMaterial beastClawToolMaterial = EnumHelper.addToolMaterial("BEASTCLAW", 2, 650, 6, 4, 10);
+	public static final ItemArmor.ArmorMaterial beastPeltArmorMaterial = EnumHelper.addArmorMaterial("BEASTPELT", modId + ":beast_pelt", 40, new int[]{3, 8, 6, 3}, 9, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0.0f);
 	
 	@Mod.Instance(modId)
 	public static TheCreech instance;
