@@ -1,0 +1,22 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"C C",
+		"PIP",
+		"PPP"
+	],
+	"key": {
+		"P": {
+			"item": "thecreech:beast_pelt"
+		},
+		"C": {
+			"item": "thecreech:beast_claw"
+		},
+		"I": {
+			"item": "minecraft:iron_ingot"
+		}
+	},
+	"result": {
+		"item": "thecreech:beast_chestplate"
+	}
+}

@@ -20,6 +20,7 @@ public class ModItems {
 	
 	// Beast Pelt Armor
 	public static ItemArmor beastHelmet = new ItemArmor(TheCreech.beastPeltArmorMaterial, 0, EntityEquipmentSlot.HEAD, "beast_helmet");
+	public static ItemArmor beastChestplate = new ItemArmor(TheCreech.beastPeltArmorMaterial, 0, EntityEquipmentSlot.CHEST, "beast_chestplate");
 	
 	public static void register(IForgeRegistry<Item> registry) {
 		registry.registerAll(
@@ -28,7 +29,8 @@ public class ModItems {
 			creechHead,
 			beastBreakerSplashPoison,
 			beastBreakerSword,
-			beastHelmet
+			beastHelmet,
+			beastChestplate
 		);
 	}
 
@@ -39,6 +41,7 @@ public class ModItems {
 		beastBreakerSplashPoison.registerItemModel();
 		beastBreakerSword.registerItemModel();;
 		beastHelmet.registerItemModel();
+		beastChestplate.registerItemModel();
 	}
 
 }
