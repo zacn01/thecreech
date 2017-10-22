@@ -1,4 +1,10 @@
-#Items
+# Items
 item.beast_claw.name=Beast Claw
+item.beast_pelt.name=Beast Pelt
 item.beast_breaker_poison.name=Beast Breaker Splash Poison
+
+# Weapons
 item.beast_breaker_sword.name=Beast Breaker Sword
+
+# Armor
+item.beast_helmet.name=Beast Helmet
