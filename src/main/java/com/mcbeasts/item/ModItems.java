@@ -12,14 +12,20 @@ public class ModItems {
 
 	public static ItemBase beastClaw = new ItemBase("beast_claw").setCreativeTab(CreativeTabs.MISC);
 	public static ItemBase beastPelt = new ItemBase("beast_pelt").setCreativeTab(CreativeTabs.MISC);
+	public static ItemBase creechHead = new ItemBase("creech_head").setCreativeTab(CreativeTabs.MISC);
+	
+	// Weapons
 	public static ItemBase beastBreakerSplashPoison = new ItemBase("beast_breaker_poison").setCreativeTab(CreativeTabs.COMBAT);
 	public static ItemSword beastBreakerSword = new ItemSword(TheCreech.beastClawToolMaterial, "beast_breaker_sword");
+	
+	// Beast Pelt Armor
 	public static ItemArmor beastHelmet = new ItemArmor(TheCreech.beastPeltArmorMaterial, 0, EntityEquipmentSlot.HEAD, "beast_helmet");
 	
 	public static void register(IForgeRegistry<Item> registry) {
 		registry.registerAll(
 			beastClaw,
 			beastPelt,
+			creechHead,
 			beastBreakerSplashPoison,
 			beastBreakerSword,
 			beastHelmet
@@ -29,6 +35,7 @@ public class ModItems {
 	public static void registerModels() {
 		beastClaw.registerItemModel();
 		beastPelt.registerItemModel();
+		creechHead.registerItemModel();
 		beastBreakerSplashPoison.registerItemModel();
 		beastBreakerSword.registerItemModel();;
 		beastHelmet.registerItemModel();

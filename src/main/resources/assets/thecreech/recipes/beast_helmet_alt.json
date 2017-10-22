@@ -2,12 +2,18 @@
 	"type": "minecraft:crafting_shaped",
 	"pattern": [
 		"   ",
-		"PPP",
+		"IHI",
 		"P P"
 	],
 	"key": {
 		"P": {
 			"item": "thecreech:beast_pelt"
+		},
+		"H": {
+			"item": "thecreech:creech_head"
+		},
+		"I": {
+			"item": "minecraft:iron_ingot"
 		}
 	},
 	"result": {
