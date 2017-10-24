@@ -1,6 +1,0 @@
-{
-	"parent": "item/handheld",
-	"textures": {
-		"layer0": "thecreech:items/beast_breaker_sword"
-	}
-}
