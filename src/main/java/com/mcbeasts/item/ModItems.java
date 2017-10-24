@@ -19,10 +19,10 @@ public class ModItems {
 	public static ItemSword beastBreakerSword = new ItemSword(TheCreech.beastClawToolMaterial, "beast_breaker_sword");
 	
 	// Beast Pelt Armor
-	public static ItemArmor beastHelmet = new ItemArmor(TheCreech.beastPeltArmorMaterial, 0, EntityEquipmentSlot.HEAD, "beast_helmet");
-	public static ItemArmor beastChestplate = new ItemArmor(TheCreech.beastPeltArmorMaterial, 0, EntityEquipmentSlot.CHEST, "beast_chestplate");
-	public static ItemArmor beastPants = new ItemArmor(TheCreech.beastPeltArmorMaterial, 0, EntityEquipmentSlot.LEGS, "beast_pants");
-	public static ItemArmor beastBoots = new ItemArmor(TheCreech.beastPeltArmorMaterial, 0, EntityEquipmentSlot.FEET, "beast_boots");
+	//public static ItemArmor beastHelmet = new ItemArmor(TheCreech.beastPeltArmorMaterial, 0, EntityEquipmentSlot.HEAD, "beast_helmet");
+	//public static ItemArmor beastChestplate = new ItemArmor(TheCreech.beastPeltArmorMaterial, 0, EntityEquipmentSlot.CHEST, "beast_chestplate");
+	//public static ItemArmor beastPants = new ItemArmor(TheCreech.beastPeltArmorMaterial, 0, EntityEquipmentSlot.LEGS, "beast_pants");
+	//public static ItemArmor beastBoots = new ItemArmor(TheCreech.beastPeltArmorMaterial, 0, EntityEquipmentSlot.FEET, "beast_boots");
 	
 	public static void register(IForgeRegistry<Item> registry) {
 		registry.registerAll(
@@ -30,11 +30,7 @@ public class ModItems {
 			beastPelt,
 			creechHead,
 			beastBreakerSplashPoison,
-			beastBreakerSword,
-			beastHelmet,
-			beastChestplate,
-			beastPants,
-			beastBoots
+			beastBreakerSword
 		);
 	}
 
@@ -44,10 +40,10 @@ public class ModItems {
 		creechHead.registerItemModel();
 		beastBreakerSplashPoison.registerItemModel();
 		beastBreakerSword.registerItemModel();;
-		beastHelmet.registerItemModel();
-		beastChestplate.registerItemModel();
-		beastPants.registerItemModel();
-		beastBoots.registerItemModel();
+		//beastHelmet.registerItemModel();
+		//beastChestplate.registerItemModel();
+		//beastPants.registerItemModel();
+		//beastBoots.registerItemModel();
 	}
 
 }

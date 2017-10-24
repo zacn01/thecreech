@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "thecreech:items/beast_slayer_sword"
+	}
+}
